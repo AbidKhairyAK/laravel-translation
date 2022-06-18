@@ -3,7 +3,7 @@
 namespace Stevebauman\Translation\Clients;
 
 use Stevebauman\Translation\Contracts\Client;
-use Stichoza\GoogleTranslate\TranslateClient;
+use Stichoza\GoogleTranslate\GoogleTranslate as TranslateClient;
 
 class GoogleTranslate implements Client
 {
